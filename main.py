@@ -1,13 +1,19 @@
 import sys
-sys.path.append('/Users/sergej/Folder1/FTN/OP - bioskop/Korisnici') 
     ### Dodaj sve pathove gde python treba da trazi import
-
-from korisnik import Korisnik,Uloge
-
+from users.non_loged_user import Non_Loged_User
 
 def main():
-    
-    kor = Korisnik()
-    
+    user = Non_Loged_User()
+    print("bravo")
+    '''
+    while(true):
+        if(korisnik.uloga == 'Registrovani Kupac'):
+            korisnik = Kupac()
+        elif(korisnik.uloga == 'Prodavac'):
+            korisnik = Prodavac()
+        elif(korisnik.uloga == 'Menadzer'):
+            korisnik = Menadzer()
+        if()
+    '''
 
 main()

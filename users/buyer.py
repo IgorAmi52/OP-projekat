@@ -1,4 +1,4 @@
-from reg_korisnik import Reg_Koris
+from users.loged_user import Reg_Koris
 
 class Kupac(Reg_Koris):
     

@@ -1,4 +1,4 @@
-from korisnik import Korisnik
+from users.user import Korisnik
 
 class Reg_Koris(Korisnik):
     
