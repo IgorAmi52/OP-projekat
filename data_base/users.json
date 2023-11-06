@@ -6,5 +6,11 @@
     "sirname": "Ami",
     "password": "123",
     "role": "Buyer"
+  },
+  "Ide": {
+    "name": "Gas",
+    "sirname": "CIna",
+    "password": "123",
+    "role": "Buyer"
   }
 }

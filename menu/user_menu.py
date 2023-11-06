@@ -30,7 +30,8 @@ class UserMenu:
             user.registration()
         else:
             exit()
-    
+            
+    @staticmethod
     def get_options(self):
         with open(Paths.USER_MENU.value,'r') as f:
             try:

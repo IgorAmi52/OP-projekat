@@ -4,6 +4,7 @@ class Buyer(LogedUser):
     
     def __init__(self):
         print("kupac")
+        exit()
         
     def reserve_ticket(self):
         print("rezervacija karata")

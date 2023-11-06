@@ -11,4 +11,6 @@ from menu.user_menu import UserMenu
 class NonLogedUser(User):
     
     def __init__(self):  
-        UserMenu.get_user_menu(self, Roles.NON_LOGED.value)
+        super().__init__()
+        self.role = Roles.NON_LOGED.value
+        self.user_menu()
