@@ -1,1 +1,10 @@
-{"IGorAmi": {"name": "Igor", "sirname": "AMidzic", "password": "123"}, "saradosev": {"name": "Sara", "sirname": "RADOSEVI", "password": "i12"}}
+{
+  "IGorAmi": { "name": "Igor", "sirname": "AMidzic", "password": "123" },
+  "saradosev": { "name": "Sara", "sirname": "RADOSEVI", "password": "i12" },
+  "SofAMi": {
+    "name": "Sofi",
+    "sirname": "Ami",
+    "password": "123",
+    "role": "Buyer"
+  }
+}

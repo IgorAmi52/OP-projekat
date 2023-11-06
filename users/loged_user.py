@@ -1,17 +1,21 @@
-from users.user import Korisnik
+from users.user import User
+from enums.roles import Roles
 
-class Reg_Koris(Korisnik):
+class LogedUser(User):
     
-    korisIme = ''
-    sifra = ''
-    ime = ''
-    prezime = ''
+    first_name = ''
+    last_name = ''
+    user_name = ''
+    password = '',
+    role = Roles.NON_LOGED
     
+    
+
     def __init__(self):
         print("registrovani korisnik")
         
-    def odjava(self):
+    def logout(self):
         print("odjava reg korisnika")
         
-    def izmena_podataka(self):
+    def change_info(self):
         print("izmena podataka reg korisnika")

@@ -1,0 +1,43 @@
+{
+  "Non logged User": {
+    "title": "Main Menu: ",
+    "options": [
+      "Exit",
+      "Movie Lookup",
+      "Search Movies",
+      "Multi Criteria Search",
+      "Login",
+      "Registration"
+    ]
+  },
+  "Buyer": {
+    "title": "Main Menu",
+    "options": [
+      "Exit",
+      "Movie Lookup",
+      "Search Movies",
+      "Multi Criteria Search",
+      "Logout"
+    ]
+  },
+  "Seller": {
+    "title": "Main Menu",
+    "options": [
+      "Exit",
+      "Movie Lookup",
+      "Search Movies",
+      "Multi Criteria Search",
+      "Logout"
+    ]
+  },
+  "Manager": {
+    "title": "Main Menu",
+    "options": [
+      "Exit",
+      "Movie Lookup",
+      "Search Movies",
+      "Multi Criteria Search",
+      "Logout"
+    ]
+  }
+}

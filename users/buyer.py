@@ -1,17 +1,17 @@
-from users.loged_user import Reg_Koris
+from users.loged_user import LogedUser
 
-class Kupac(Reg_Koris):
+class Buyer(LogedUser):
     
     def __init__(self):
         print("kupac")
         
-    def rez_karata(self):
+    def reserve_ticket(self):
         print("rezervacija karata")
         
-    def pregled_karata(self):
+    def check_tickets(self):
         print("pregled karata")
      
-    def ponis_karata(self):
+    def delete_ticket(self):
         print("ponistavanje karata")
         
        
