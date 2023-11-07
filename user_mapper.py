@@ -17,11 +17,12 @@ class UserMapper:
     @classmethod
     def get(cls, user):
         new_user = cls.user_map[user.role]()
-        new_user.name = user.name
-        new_user.sirname = user.sirname
-        new_user.password = user.password
-        new_user.username = user.username
-        
+        if(user.role != Roles.NON_LOGED.value):
+            new_user.name = user.name
+            new_user.sirname = user.sirname
+            new_user.password = user.password
+            new_user.username = user.username
+            
         return new_user
     
     
