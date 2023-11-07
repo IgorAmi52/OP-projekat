@@ -12,10 +12,7 @@ class User: ### Base class for every role
 
     def __init__(self):
         self.role = "User"
-        self.name = ''
-        self.sirname = ''
-        self.username = ''
-        self.password = ''
+       
 
     def login(self):  #Try to Login the user 
         Authentication.login(self)

@@ -3,10 +3,10 @@ from enums.roles import Roles
 
 class LogedUser(User):
     
-    first_name = ''
-    last_name = ''
-    user_name = ''
-    password = '',
+    name = ''
+    sirname = ''
+    username = ''
+    password = ''
     role = Roles.NON_LOGED
 
     def __init__(self):
