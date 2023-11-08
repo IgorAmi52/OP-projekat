@@ -1,16 +1,20 @@
 {
-  "IGorAmi": { "name": "Igor", "sirname": "AMidzic", "password": "123" },
-  "saradosev": { "name": "Sara", "sirname": "RADOSEVI", "password": "i12" },
-  "SofAMi": {
-    "name": "Sofi",
-    "sirname": "Ami",
-    "password": "123",
-    "role": "Buyer"
-  },
-  "Ide": {
-    "name": "Gas",
-    "sirname": "CIna",
-    "password": "123",
-    "role": "Buyer"
-  }
+    "branko": {
+        "name": "Branko",
+        "surname": "Amidzic",
+        "password": "1111",
+        "role": "Buyer"
+    },
+    "aa": {
+        "name": "bb",
+        "surname": "aa",
+        "password": "1111",
+        "role": "Buyer"
+    },
+    "bb": {
+        "name": "Branko",
+        "surname": "Amidzic",
+        "password": "1111",
+        "role": "Buyer"
+    }
 }

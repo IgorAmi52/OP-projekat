@@ -9,16 +9,17 @@ class UserMenu:
     @classmethod
     def select_option(cls, user):
         
-        options = cls.get_options(cls)
-        
+        options = UserMenu.get_options()
+        user_class = user.__class__
+
         option, _ = pick(
-            options[user.role]['options'],
-            options[user.role]['title']
+            options[user_class.role]['options'],
+            options[user_class.role]['title']
         )
         return option
 
     @staticmethod
-    def get_options(self):
+    def get_options():
         with open(Paths.USER_MENU.value,'r') as f:
             try:
                 return json.load(f)

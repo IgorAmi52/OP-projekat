@@ -1,5 +1,6 @@
-from users.buyer import Buyer
+from users.logged_user import LoggedUser
 
-class Seller(Buyer):
-    pass
+class Seller(LoggedUser):
+    role = 'Seller'
+
         

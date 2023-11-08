@@ -1,6 +1,8 @@
 from users.logged_user import LoggedUser
 
 class Buyer(LoggedUser):
+    role = 'Buyer'
+
     def reserve_ticket(self):
         print("rezervacija karata")
         

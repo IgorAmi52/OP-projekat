@@ -3,16 +3,16 @@ from menu.user_menu import UserMenu
 class User: ### Base class for every role
 
     def __init__(
-            self, name=None, surname=None, username=None,
-            password=None, role=None
-    ):
+            self, name=None, surname=None, username=None, password=None,
+            role=None):
         self.name = name
         self.surname = surname
         self.username = username
         self.password = password
         self.role = role
-        self.new_active_user = None
-        
+        self.logged_in = None
+        self.logged_out = None
+
     def execute_action(self):
         option = UserMenu.select_option(self)
 
