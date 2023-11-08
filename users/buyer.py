@@ -1,11 +1,6 @@
-from users.loged_user import LogedUser
+from users.logged_user import LoggedUser
 
-class Buyer(LogedUser):
-    
-    def __init__(self):
-        print("kupac")
-        exit()
-        
+class Buyer(LoggedUser):
     def reserve_ticket(self):
         print("rezervacija karata")
         

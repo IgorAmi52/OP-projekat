@@ -1,29 +1,31 @@
-import json
-from os import system
-
-from pick import pick
-
-from enums.roles import Roles
-from enums.paths import Paths
-from authentication.authentication import Authentication
 from menu.user_menu import UserMenu
 
 class User: ### Base class for every role
 
-    def __init__(self):
-        self.role = "User"
-       
+    def __init__(
+            self, name=None, surname=None, username=None,
+            password=None, role=None
+    ):
+        self.name = name
+        self.surname = surname
+        self.username = username
+        self.password = password
+        self.role = role
+        self.new_active_user = None
+        
+    def execute_action(self):
+        option = UserMenu.select_option(self)
 
-    def login(self):  #Try to Login the user 
-        Authentication.login(self)
-        
-    def registration(self):
-        Authentication.registration()
-        self.user_menu()
-        
-    def user_menu(self):
-        UserMenu.get_user_menu(self,self.role)
-          
+        if option == 'Exit':
+            self.exit()
+        elif option == 'Movie Lookup':
+            self.movie_lookup()
+        elif option == 'Search Movies':
+            self.search()
+        elif option == 'Multi Criteria Search':
+            self.multi_search()
+        return option
+
     def exit(self):
         exit()
         
@@ -35,4 +37,3 @@ class User: ### Base class for every role
         
     def multi_search(self):
         print("vise krit pretraga")
-    

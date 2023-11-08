@@ -1,13 +1,13 @@
-import sys
-    ### Dodaj sve pathove gde python treba da trazi import
-from users.non_loged_user import NonLogedUser
+from users.anonymous import AnonymousUser
 from user_mapper import UserMapper
 
 def main():
     
-    user = NonLogedUser()
+    user = AnonymousUser()
 
-    while(True):
-        new_user = UserMapper.get(user)
+    while True:
+        user.execute_action()
+        user = user.new_active_user or user
 
-main()
+if __name__ == "__main__":
+    main()
