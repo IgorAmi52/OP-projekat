@@ -1,5 +1,4 @@
 from users.anonymous import AnonymousUser
-from user_mapper import UserMapper
 
 def main():
     
