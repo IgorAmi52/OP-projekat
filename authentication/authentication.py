@@ -30,10 +30,10 @@ class Authentication:
             role,_ = pick(options['REGISTER_MANAGER_ROLES']['options'],options['REGISTER_MANAGER_ROLES']['title'])
         
         #Validation 1 -- incorrect input
-        if username == '' or password == '' or name == '' or surname == '':
+        if username == '' or name == '' or surname == '' or len(password)<6 or any(char.isdigit() for char in password)==False :
             option, _ = pick(options['BAD_REGISTER_OPTIONS']['options'],options['BAD_REGISTER_OPTIONS']['title2']) 
             if option == 'Try again': user.registration()
-            else: return
+            return
 
         with open(Paths.USERS.value,'r') as f:
             try:
