@@ -2,6 +2,9 @@ from users.logged_user import LoggedUser
 
 
 class UserMapper:
+    """
+        Returns a user class depending on the role picked
+    """
     def __init__(self):
         self.user_map = {}
         for user_class in LoggedUser.__subclasses__():

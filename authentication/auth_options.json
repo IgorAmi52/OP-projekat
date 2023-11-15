@@ -1,0 +1,11 @@
+{
+  "BAD_REGISTER_OPTIONS": {
+    "title1": "Username already exists, use a diffrent username",
+    "title2": "Your info cannot be blank",
+    "options": ["Try again", "Back to Menu"]
+  },
+  "BAD_LOGIN_OPTIONS": {
+    "title": "Login was unsuccessful",
+    "options": ["Try again", "Back to Menu"]
+  }
+}

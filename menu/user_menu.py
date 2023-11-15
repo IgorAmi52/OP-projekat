@@ -6,15 +6,19 @@ from enums.paths import Paths
 
 class UserMenu:
     
+    """Shows awailable option for user (depending on the role)
+
+    Returns:
+        string: Picked option
+    """
+    
     @classmethod
     def select_option(cls, user):
-        
+    
         options = UserMenu.get_options()
-        user_class = user.__class__
-
         option, _ = pick(
-            options[user_class.role]['options'],
-            options[user_class.role]['title']
+            options[user.role]['options'],
+            options[user.role]['title']
         )
         return option
 

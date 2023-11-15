@@ -16,5 +16,17 @@
         "surname": "Amidzic",
         "password": "1111",
         "role": "Buyer"
+    },
+    "igorami": {
+        "name": "Igori",
+        "surname": "Amidzic",
+        "password": "1234",
+        "role": "Buyer"
+    },
+    "gile": {
+        "name": "GILE",
+        "surname": "amidzic",
+        "password": "123",
+        "role": "Buyer"
     }
 }

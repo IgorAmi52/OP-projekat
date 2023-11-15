@@ -1,15 +1,16 @@
+import os
 from menu.user_menu import UserMenu
 
 class User: ### Base class for every role
 
+    role = 'None'
+    
     def __init__(
-            self, name=None, surname=None, username=None, password=None,
-            role=None):
+            self, name=None, surname=None, username=None, password=None):
         self.name = name
         self.surname = surname
         self.username = username
         self.password = password
-        self.role = role
         self.logged_in = None
         self.logged_out = None
 
@@ -27,6 +28,7 @@ class User: ### Base class for every role
         return option
 
     def exit(self):
+        os.system('clear')
         exit()
         
     def movie_lookup(self):
