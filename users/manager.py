@@ -1,5 +1,5 @@
 from users.logged_user import LoggedUser
-
+from authentication.authentication import Authentication
 
 class Manager(LoggedUser):
     role = 'Manager'
@@ -7,9 +7,9 @@ class Manager(LoggedUser):
     def execute_action(self):
         option = super().execute_action()
         if option == "Register New Employee":
-            self.register_new_employee()
+            self.registration()
 
 
 
-    def register_new_employee(self):
-        exit()
+    def registration(self):
+        Authentication.registration(self)

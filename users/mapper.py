@@ -1,6 +1,5 @@
 from users.logged_user import LoggedUser
 
-
 class UserMapper:
     """
         Returns a user class depending on the role picked

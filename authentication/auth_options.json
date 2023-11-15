@@ -1,4 +1,8 @@
 {
+  "REGISTER_MANAGER_ROLES": {
+    "title": "Pick a role for the new user:",
+    "options": ["Seller", "Manager"]
+  },
   "BAD_REGISTER_OPTIONS": {
     "title1": "Username already exists, use a diffrent username",
     "title2": "Your info cannot be blank",

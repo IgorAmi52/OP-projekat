@@ -1,32 +1,38 @@
 {
-    "branko": {
-        "name": "Branko",
-        "surname": "Amidzic",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "aa": {
-        "name": "bb",
-        "surname": "aa",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "bb": {
-        "name": "Branko",
-        "surname": "Amidzic",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "igorami": {
-        "name": "Igori",
-        "surname": "Amidzic",
-        "password": "1234",
-        "role": "Buyer"
-    },
-    "gile": {
-        "name": "GILE",
-        "surname": "amidzic",
-        "password": "123",
-        "role": "Buyer"
-    }
+  "branko": {
+    "name": "Branko",
+    "surname": "Amidzic",
+    "password": "1111",
+    "role": "Buyer"
+  },
+  "aa": {
+    "name": "bb",
+    "surname": "aa",
+    "password": "1111",
+    "role": "Buyer"
+  },
+  "bb": {
+    "name": "Branko",
+    "surname": "Amidzic",
+    "password": "1111",
+    "role": "Buyer"
+  },
+  "igorami": {
+    "name": "Igori",
+    "surname": "Amidzic",
+    "password": "1234",
+    "role": "Buyer"
+  },
+  "gile": {
+    "name": "GILE",
+    "surname": "amidzic",
+    "password": "123",
+    "role": "Manager"
+  },
+  "sofami": {
+    "name": "Sofija",
+    "surname": "Amidzic",
+    "password": "123",
+    "role": "Seller"
+  }
 }
