@@ -1,74 +1,20 @@
 {
-    "branko": {
-        "name": "Branko",
-        "surname": "Amidzic",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "aa": {
-        "name": "bb",
-        "surname": "aa",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "bb": {
-        "name": "Branko",
-        "surname": "Amidzic",
-        "password": "1111",
-        "role": "Buyer"
-    },
-    "igorami": {
-        "name": "Igori",
-        "surname": "Amidzic",
-        "password": "1234",
-        "role": "Buyer"
-    },
-    "gile": {
-        "name": "GILE",
-        "surname": "amidzic",
-        "password": "123",
-        "role": "Manager"
-    },
-    "sofami": {
-        "name": "Sofija",
-        "surname": "Amidzic",
-        "password": "123",
-        "role": "Seller"
-    },
-    "sofi": {
-        "name": "Sofija",
-        "surname": "Amidzic",
-        "password": "123",
-        "role": "Manager"
-    },
-    "": {
-        "name": "a",
-        "surname": "",
-        "password": "",
-        "role": "Buyer"
-    },
-    "a": {
-        "name": "a",
-        "surname": "a",
-        "password": "a",
-        "role": "Buyer"
-    },
-    "aaaaaa": {
-        "name": "a",
-        "surname": "a",
-        "password": "a",
-        "role": "Buyer"
-    },
-    "igoramiaaa": {
-        "name": "a",
-        "surname": "a",
-        "password": "a",
-        "role": "Buyer"
-    },
-    "proba": {
-        "name": "a",
-        "surname": "a",
-        "password": "novaproba1",
-        "role": "Buyer"
-    }
+  "manager": {
+    "name": "Sofija",
+    "surname": "Amidzic",
+    "password": "manager123",
+    "role": "Manager"
+  },
+  "IgorAmi1": {
+    "name": "Igor",
+    "surname": "Amidzic",
+    "password": "password123",
+    "role": "Buyer"
+  },
+  "SofiAmi": {
+    "name": "Sofija",
+    "surname": "Amidzic",
+    "password": "amidzic123",
+    "role": "Seller"
+  }
 }

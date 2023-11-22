@@ -5,7 +5,7 @@
   },
   "BAD_REGISTER_OPTIONS": {
     "title1": "Username already exists, use a diffrent username",
-    "title2": "Your info cannot be blank",
+    "title2": "Your info cannot be blank (Password must contain more then 5 characters)",
     "options": ["Try again", "Back to Menu"]
   },
   "BAD_LOGIN_OPTIONS": {

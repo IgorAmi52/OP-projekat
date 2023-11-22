@@ -1,10 +1,11 @@
 import os
 from menu.user_menu import UserMenu
 
-class User: ### Base class for every role
+
+class User:  # Base class for every role
 
     role = 'None'
-    
+
     def __init__(
             self, name=None, surname=None, username=None, password=None):
         self.name = name
@@ -30,12 +31,12 @@ class User: ### Base class for every role
     def exit(self):
         os.system('clear')
         exit()
-        
+
     def movie_lookup(self):
         print("pregled filmova")
-        
+
     def search(self):
         print("pretraga filma")
-        
+
     def multi_search(self):
         print("vise krit pretraga")
